@@ -1,0 +1,166 @@
+body
+    {
+        background-image: url(background\ map.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+main
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+header
+    {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        border-left-style: double;
+        border-right-style: double;
+        border-width: 20px;
+        border-radius: 25px;
+        padding: 0px 25px;
+    }
+
+h1
+    {
+        padding: 8.25px 100px;
+        border-radius: 25px;
+        border: solid 7px rgb(100, 100, 100);
+        border-bottom-style: double;
+        border-bottom-width: 5px;
+        border-bottom-color: gray;
+        background-color: rgba(240, 240, 240, 0.75);
+        margin: 60px 0px 15px 0px;
+    }
+
+div
+    {
+        border-left-style: double;
+        border-right-style: double;
+        border-width: 15px;
+        border-radius: 25px;
+        padding: 0px 25px;
+        background-color: rgba(240, 240, 240, 0.9);
+    }
+
+header img
+    {
+        height: 280px;
+        width: 500px;
+    }
+
+img
+    {
+        height: 125px;
+        width: 175px;
+        border-radius: 25px;
+    }
+
+/*Table's Modifications*/
+
+    table
+        {
+            background-color: rgba(240, 240, 240, 0.5);
+            border-radius: 25px;
+            padding: 20px 15px 5px 15px;
+            border: double 7px gray;
+        }
+
+    td
+        {
+            padding: 2.25px 5px;
+            text-align: center;
+            font-size: 16.25px;
+            border: solid rgba(0, 0, 240, 0.5) 2px;
+            border-radius: 7.5px; 
+        }
+
+    th
+        {
+            font-size: 17.25px;
+            text-align: center;
+            border: solid 3.5px;
+            border-radius: 25px;
+            border-bottom-style: double;
+            border-bottom-width: 4.75px;
+            padding: 3.75px;
+        }
+
+    table img
+        {
+            height: 125px;
+            width: 175px;
+            border-radius: 25px;
+            border: 2.5px solid;
+        }
+
+    caption
+        {
+            text-align: center;
+            height: 50px;
+            margin: 0px;
+        }
+
+    span
+        {
+            font-size: 25px;
+            padding: 8.25px 75px;
+            border-radius: 25px;
+            border: solid 7px rgb(100, 100, 100);
+            border-bottom-style: double;
+            border-bottom-width: 5px;
+            border-bottom-color: gray;
+            background-color: rgba(240, 240, 240, 0.75);
+        }
+
+    tfoot td
+        {
+            border-radius: 25px;
+            background-color: rgba(100, 100, 100, 0.425) !important;
+            border-top-style: double;
+            border-width: 4.85px;
+            padding: 3.5px;
+            font-style: italic;
+        }
+    
+    colgroup col:first-child
+        {
+            background-color: rgba(0, 160, 140, 0.7);
+        }
+
+    colgroup col:nth-child(2)
+        {
+            background-color: rgba(0, 160, 140, 0.6);
+        }
+    colgroup col:nth-child(3)
+        {
+            background-color: rgba(0, 160, 140, 0.5);
+        }
+    colgroup col:nth-child(4)
+        {
+            background-color: rgba(0, 160, 140, 0.4);
+        }
+    colgroup col:nth-child(5)
+        {
+            background-color: rgba(0, 160, 140, 0.3);
+        }
+    colgroup col:nth-child(6)
+        {
+            background-color: rgba(0, 160, 140, 0.2);
+        }
+    colgroup col:last-child
+        {
+            background-color: rgba(0, 160, 140, 0.1);
+        }
+
+
+    
+
+    
+
+
+/* -- */
